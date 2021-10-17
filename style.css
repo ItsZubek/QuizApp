@@ -1,0 +1,48 @@
+body {
+	margin: 0 auto;
+	padding: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: #ebebeb;
+	font-family: 'Benne', serif;
+}
+.container {
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 5px 5px 6px 6px #e0e0e0;
+}
+.answersContainer {
+display: flex;
+flex-wrap: wrap;
+}
+
+h1 {
+ text-align: center;
+ margin: 1.5rem 2rem 2.5rem 2rem;
+ font-size: 2rem;
+
+}
+ul {
+	list-style: none;
+}
+
+ label {
+	width: 100%;
+	font-size: 1.2rem;
+}
+button {
+	margin-top: 2.5rem;
+	background-color: ;
+	width: 100%;
+	padding:  1rem 0;
+	background-color:  #0eab35;
+	color: white;
+	border: none;
+	font-size: 1rem;
+}
+button:hover {
+	background-color: #2e994a;
+	cursor: pointer;
+}
